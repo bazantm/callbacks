@@ -1,5 +1,6 @@
 import requests
 
+
 def make_request(url, callback):
     response = requests.get(url)
     callback(response)
